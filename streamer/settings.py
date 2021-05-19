@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-7#_4v-bjhm)=vmd&x(42ysugh)rb24gzeo+v%ra%4y0lco-@fz
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 ALLOWED_HOSTS = ['*']
 
