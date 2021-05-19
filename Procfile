@@ -1,1 +1,1 @@
-web: gunicorn streamer.wsgi.application --log-file -
+web: gunicorn streamer.wsgi --log-file -
